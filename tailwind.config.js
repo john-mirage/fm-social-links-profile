@@ -15,6 +15,7 @@ export default {
   ],
   theme: {
     screens: {
+      "sm": "432px",
       "hover-device": { "raw": "(hover: hover)" },
     },
     colors: {
@@ -35,6 +36,7 @@ export default {
       "21": pxToRem(21),
       "24": pxToRem(24),
       "36": pxToRem(36),
+      "40": pxToRem(40),
       "48": pxToRem(48),
       "88": pxToRem(88),
     },

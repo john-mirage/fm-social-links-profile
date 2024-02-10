@@ -2,7 +2,7 @@ import Link from "./Link"
 
 function Card() {
   return (
-    <article className="mb-24 flex flex-col gap-24 items-center w-full max-w-[384px] bg-dark-grey rounded-xl p-24 text-center">
+    <article className="mb-24 flex flex-col gap-24 items-center w-full max-w-[384px] bg-dark-grey rounded-xl p-24 text-center sm:p-40">
       <img className="w-88 h-88 rounded-full" src="/avatar-jessica.jpeg" alt="Jessica Rendall avatar" draggable="false" />
       <div>
         <h2 className="mb-4 text-white text-heading">Jessica Rendall</h2>
